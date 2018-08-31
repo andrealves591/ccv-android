@@ -1,0 +1,159 @@
+<resources>
+
+    <string name="app_name">CCV</string>
+
+    <!--MENU-->
+    <string name="action_settings">Sobre</string>
+
+    <!--SPLASH SCREEN-->
+    <string name="sc_tv_carregando">Abastecendo...</string>
+    <string name="sc_tv_titulo">SóCarrãoMultimarcas</string>
+
+    <!--LOGIN-->
+    <string name="lg_et_email">E-mail</string>
+    <string name="lg_et_senha">Senha</string>
+    <string name="lg_bt_logar">Entrar</string>
+    <string name="lg_tv_esqueci">Esqueceu a senha?</string>
+    <string name="lg_bt_cadastrar">Criar nova conta</string>
+
+    <!--CADASTRO CLIENTE-->
+    <string name="cc_et_nome">Nome</string>
+    <string name="cc_et_cpf">CPF</string>
+    <string name="cc_tv_sexo">Sexo</string>
+    <string name="cc_rb_masculino">Masculino</string>
+    <string name="cc_rb_feminino">Feminino</string>
+    <string name="cc_et_idade">Idade</string>
+    <string name="cc_et_cep">CEP</string>
+    <string name="cc_bt_cadastrar">Cadastrar Cliente</string>
+    <string name="cc_bt_buscacep">Buscar Endereço</string>
+    <string name="cc_et_rrua">Rua</string>
+    <string name="cc_et_numero">Nº</string>
+    <string name="cc_et_bairro">Bairro</string>
+    <string name="cc_et_cidade">Cidade</string>
+    <string name="cc_et_uf">UF</string>
+
+    <!--CADASTRO VEICULO-->
+    <string name="cv_et_nome">Nome</string>
+    <string name="cv_et_ano">Ano</string>
+    <string name="cv_et_modelo">Modelo</string>
+    <string name="cv_tv_combustivel">Combustível</string>
+    <string-array name="cv_sp_combustivel">
+        <item>Selecione</item>
+        <item>Gasolina</item>
+        <item>GNV</item>
+        <item>Etanol</item>
+        <item>Diesel</item>
+        <item>Flex</item>
+    </string-array>
+    <string name="cv_tv_marca">Marca</string>
+    <string-array name="cv_sp_marcas">
+        <item>Selecione</item>
+        <item>Chevrolet</item>
+        <item>Ford</item>
+        <item>Wolksvagem</item>
+        <item>Fiat</item>
+        <item>Hyundai</item>
+        <item>Mercedes</item>
+        <item>Nissan</item>
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Ferrari</item>
+        <item>Porsche</item>
+        <item>Chrysler</item>
+        <item>Peugeot</item>
+        <item>Renault</item>
+    </string-array>
+    <string name="cv_tv_portas">Portas</string>
+    <string name="cv_rb_2">2</string>
+    <string name="cv_rb_3">3</string>
+    <string name="cv_rb_4">4</string>
+    <string name="cv_et_cor">Cor</string>
+    <string name="cv_et_valor_custo">Preço</string>
+    <string name="cv_bt_cadastrar">Cadastrar</string>
+    <string name="cv_tv_complementos">Complementos</string>
+    <string name="cv_cb_ar">Ar Cond.</string>
+    <string name="cv_cb_direcao">Dir. Hidráulica</string>
+    <string name="cv_cb_airbag">Airbag</string>
+
+    <!--CADASTRO USUARIO-->
+    <string name="cu_et_email">E-mail</string>
+    <string name="cu_et_senha">Senha</string>
+    <string name="cu_et_repetir_senha">Repetir Senha</string>
+    <string name="cu_bt_cadastrar">Cadastrar</string>
+
+    <!--LINHAS-->
+    <string name="tv_endereco_titulo">Endereço</string>
+    <string name="tv_dados_titulo">Dados</string>
+    <string name="lv_tv_complementos">Complementos</string>
+
+    <!--BUSCA CLIENTE-->
+    <string name="bc_et_pesquisa">Procurar</string>
+    <string-array name="bc_sp_filtro">
+        <item>Selecione</item>
+        <item>Nome</item>
+        <item>Idade</item>
+        <item>Sexo</item>
+        <item>CPF</item>
+    </string-array>
+    <!--BUSCA VEICULO-->
+    <string-array name="bv_sp_filtro">
+        <item>Selecione</item>
+        <item>Nome</item>
+        <item>Marca</item>
+        <item>Ano</item>
+        <item>Modelo</item>
+        <item>Preço</item>
+    </string-array>
+
+    <!--SOBRE-->
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="so_nomeapp">Nome do App: CCV</string>
+    <string name="so_versao">Versão: 1.0</string>
+    <string name="so_desenvolvedor">Desenvolvedor Principal:\nAlvesTec - André Alves</string>
+    <string name="so_data">Ano: 2018</string>
+    <string name="so_contato">Contato: andrealves591.aa@gmail.com</string>
+    <string name="tvDesenvolvedoresParceiros">Desenvolvedores Parceiros:</string>
+    <string name="tvMauricio">Eduardo José Gautier</string>
+    <string name="sb_bt_contato">Contatar Desenvolvedor</string>
+
+    <!--novos-->
+    <string name="nome_invalido">Nome Inválido!</string>
+    <string name="cpf_invalido">CPF Inválido!</string>
+    <string name="sexo_invalido">Sexo Inválido!</string>
+    <string name="idade_invalido">Idade Inválida!</string>
+    <string name="cep_invalido">CEP Inválido!</string>
+    <string name="sucesso">Sucesso!</string>
+    <string name="cliente_erro">ERRO!</string>
+    <string name="marca_invalido">Marca Inválida!</string>
+    <string name="ano_invalido">Ano Inválido!</string>
+    <string name="modelo_invalido">Modelo Inválido!</string>
+    <string name="cor_invalido">Cor Inválida!</string>
+    <string name="preco_invalido">Preço Inválido!</string>
+    <string name="combustivel_invalido">Combustível Inválido!</string>
+    <string name="portas_invalido">Número de Portas Inválido!</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="ja_logado">Você já está logado</string>
+    <string name="nao_logado">Você não está logado!</string>
+    <string name="usuario_nao">Usuário NÃO autenticado!</string>
+    <string name="usuario_autenticado">Usuário autenticado!</string>
+    <string name="dados_incorretos">Dados Incompletos!</string>
+    <string name="redefinicao_senha">Email para recuperação de senha enviado com sucesso!</string>
+    <string name="email_incompleto">Informe seu email!</string>
+    <string name="alert_titulo">Confirmação</string>
+    <string name="removido">Removido com Sucesso!</string>
+    <string name="alert_msg">Tem certeza que deseja excluir?</string>
+    <string name="click">Segure para excluir!</string>
+    <string name="cad_user">Informe os dados para criar uma nova conta!</string>
+    <string name="senha_validada">As senhas não coincidem!</string>
+
+    <!--Menu-->
+    <string name="cadastrar_veiculo">Cadastro de Veículos</string>
+    <string name="cadastrar_cliente">Cadastro de Clientes</string>
+    <string name="listar_veiculo">Lista de Veículos</string>
+    <string name="listar_cliente">Lista de Clientes</string>
+
+    <string name="cadastrar_usuario">Cadastro de Usuário</string>
+    <string name="sair">Sair</string>
+
+</resources>

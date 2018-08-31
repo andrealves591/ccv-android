@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1024187762276",
+    "firebase_url": "https://socarraomultimarcas.firebaseio.com",
+    "project_id": "socarraomultimarcas",
+    "storage_bucket": "socarraomultimarcas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024187762276:android:d8e5d57bbac20f04",
+        "android_client_info": {
+          "package_name": "andre.gautier.projfinalandreeduardo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024187762276-hk66ma6i4u46qe51u3a9762rum9tqdqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASMO4Has7FSgBx2SsqOh474aGr6gTxx64"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
